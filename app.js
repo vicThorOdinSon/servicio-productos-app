@@ -4,7 +4,7 @@ const path = require('path');
 const connectDB = require('./config/db');
 const productosRoutes = require('./routes/productos');
 const app = express();
-const PORT = process.env.PORT || 3010;
+const PORT = process.env.PORT || 3000;
 
 // Conexión a la base de datos
 connectDB();
